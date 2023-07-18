@@ -39,9 +39,9 @@ pagination = "10"
   filename = "sitemap.xml"
 
 [Author]
-  name = "Bino Kochumol Varghese"
-  website = "https://binovarghese.com/"
-  email = "sample@gmail.com"
+  name = "Alix"
+  website = "https://www.linkedin.com/in/thibaud-casas-299582216/"
+  email = "alixcasas38@gmail.com"
   facebook = "username"
   instagram = "username"
   youtube = "user/username" # or channel/channelname

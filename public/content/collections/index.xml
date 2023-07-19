@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Collections on My Little Port Folio</title>
+    <link>http://exemple.org/content/collections/</link>
+    <description>Recent content in Collections on My Little Port Folio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://exemple.org/content/collections/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Collections No.1</title>
+      <link>http://exemple.org/content/collections/2023/collections/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://exemple.org/content/collections/2023/collections/</guid>
+      <description>Articles about learn in public, brag document and free stuffs.
+Learn In Public If there’s a golden rule, it’s this one, so I put it first. All the other rules are more or less elaborations of this rule #1.
+A habit of creating learning exhaust:
+Write blogs and tutorials and cheatsheets. Speak at meetups and conferences. Ask and answer things on Stackoverflow or Reddit. Avoid the walled gardens like Slack and Discord, they’re not public.</description>
+    </item>
+    
+  </channel>
+</rss>

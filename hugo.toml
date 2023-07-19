@@ -1,0 +1,4 @@
+baseURL = 'http://exemple.org/'
+languageCode = 'fr'
+title = 'My Little Port Folio'
+theme = 'lightbi-hugo'

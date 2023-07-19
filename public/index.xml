@@ -8,36 +8,22 @@
     <language>fr</language>
     <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://exemple.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Collections No.1</title>
+      <title>Programmation</title>
+      <link>http://exemple.org/content/collections/2023/collections_2/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://exemple.org/content/collections/2023/collections_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Warhammer</title>
       <link>http://exemple.org/content/collections/2023/collections/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>http://exemple.org/content/collections/2023/collections/</guid>
-      <description>Articles about learn in public, brag document and free stuffs.
-Learn In Public If there’s a golden rule, it’s this one, so I put it first. All the other rules are more or less elaborations of this rule #1.
-A habit of creating learning exhaust:
-Write blogs and tutorials and cheatsheets. Speak at meetups and conferences. Ask and answer things on Stackoverflow or Reddit. Avoid the walled gardens like Slack and Discord, they’re not public.</description>
-    </item>
-    
-    <item>
-      <title>Build a Hugo Blog</title>
-      <link>http://exemple.org/content/post/2020/jan/build-hugo-blog/</link>
-      <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://exemple.org/content/post/2020/jan/build-hugo-blog/</guid>
-      <description>Hugo? It’s a fast and static website generator written in the Go language. Websites built with Hugo can be hosted anywhere from GitHub Pages to Amazon S3 without any database or other language dependencies.
-First I started to use Hugo is for my Malayalam write up a blog wizbi tales (Malayalam is a language spoken in Kerala, India), After the initial learning curves, I loved it for simplicity and performance. And when I started this blog itself I didn’t think twice.</description>
-    </item>
-    
-    <item>
-      <title>Basic Syntax</title>
-      <link>http://exemple.org/content/post/2020/jan/syntax/</link>
-      <pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://exemple.org/content/post/2020/jan/syntax/</guid>
-      <description>Headings
-To create a heading, add number signs (#) in front of a word or phrase. The number of number signs you use should correspond to the heading level. For example, to create a heading level three (h3), use three number signs (e.g., ### My Header). Heading level 1 Heading level 2 Heading level 3 Heading level 4 Heading level 5 Heading level 6 Paragraphs
-To create paragraphs, use a blank line to separate one or more lines of text.</description>
+      <description>Décors et terrains Une série de décors pour le jeu de plateau warhammer a été réalisée il y a quelques années. Des bâtiments et des collines réalisées à l&amp;rsquo;aide de mousse et d&amp;rsquo;écorses d&amp;rsquo;arbre.
+Peinture des figurines </description>
     </item>
     
     <item>

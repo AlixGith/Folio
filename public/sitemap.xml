@@ -5,9 +5,6 @@
     <loc>http://exemple.org/content/collections/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://exemple.org/content/collections/2023/collections/</loc>
-    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://exemple.org/content/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -17,29 +14,19 @@
     <loc>http://exemple.org/tags/newsletter/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://exemple.org/tags/prog/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://exemple.org/content/collections/2023/collections_2/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://exemple.org/tags/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://exemple.org/content/collections/2023/collections/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://exemple.org/content/post/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://exemple.org/tags/blog/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://exemple.org/content/post/2020/jan/build-hugo-blog/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://exemple.org/tags/hugo/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://exemple.org/content/post/2020/jan/syntax/</loc>
-    <lastmod>2020-01-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://exemple.org/tags/markdown/</loc>
-    <lastmod>2020-01-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://exemple.org/tags/syntax/</loc>
-    <lastmod>2020-01-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://exemple.org/layouts/partials/footer_custom/</loc>
   </url><url>

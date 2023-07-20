@@ -15,7 +15,7 @@
       <guid>http://exemple.org/content/collections/2023/collections_2/</guid>
       <description>2023 - Borehole modelisation - Stage à KTH en Suède Projet dédié à la modélisation et à la commande de trous de forage à l&amp;rsquo;aide de Julia
 Objectifs
-Comprendre le modèle Le modèle est un modèle basé sur des composantes acausales contenant : La composante discrète de convection-diffusion donnant une discrétisation de la température dans le temps et l&amp;rsquo;espace : u(t, x) L&amp;rsquo;instanciation de la couche, fonction de la taille n de u(t, x) Le tracé de la solution Cliquez pour accéder au GitHub</description>
+Comprendre le modèle Le modèle est un modèle basé sur des composantes acausales contenant : La composante discrète de convection-diffusion donnant une discrétisation de la température dans le temps et l&amp;rsquo;espace : u(t, x) L&amp;rsquo;instanciation de la couche, fonction de la taille n de u(t, x) Le tracé de la solution Cliquez pour accéder au GitHub.</description>
     </item>
     
     <item>

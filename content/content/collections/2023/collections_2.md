@@ -20,8 +20,7 @@ Objectifs
     - L'instanciation de la couche, fonction de la taille n de u(t, x)
     - Le tracé de la solution
 
-<a href="https://github.com/CASKTH/Borehole_modelisation">Cliquez pour accéder au GitHub</a>
-
+Cliquez pour accéder au [GitHub](https://github.com/CASKTH/Borehole_modelisation).
 
 # Il y a 4 ans - Companionship Creeks - 2018-2020
 

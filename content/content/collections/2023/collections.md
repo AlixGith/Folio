@@ -15,7 +15,7 @@ Décors et terrains
 ![Alt text](/img/collections/Decors_2.png "Terrain")
 
 
-Une série de décors pour le jeu de plateau warhammer a été réalisée il y a quelques années. Des bâtiments et des collines réalisées à l'aide de mousse et d'écorses d'arbre. 
+Une série de décors pour le jeu Warhammer a été réalisée il y a quelques années. Des bâtiments et des collines réalisées à l'aide de mousse et d'écorces d'arbres. 
 
 
 ![Alt text](/img/collections/Ouroukai_decors.jpg "Colline")

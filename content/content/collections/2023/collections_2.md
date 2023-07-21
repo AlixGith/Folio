@@ -4,7 +4,7 @@ Subtitle: ""
 Date: 2023-01-01
 Lastmod : 
 Tags: ["Prog"]
-image : ""
+image : "/img/collections/kth_logo.jpg"
 Description: "Articles sur les réalisations de logiciels"
 Draft: 
 ---

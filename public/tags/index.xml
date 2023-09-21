@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My Little Port Folio</title>
+    <title>Tags on Archives de réalisations</title>
     <link>http://exemple.org/tags/</link>
-    <description>Recent content in Tags on My Little Port Folio</description>
+    <description>Recent content in Tags on Archives de réalisations</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
     <lastBuildDate>Mon, 24 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://exemple.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dessins</title>
+      <link>http://exemple.org/tags/dessins/</link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://exemple.org/tags/dessins/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Menuiserie</title>
       <link>http://exemple.org/tags/menuiserie/</link>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My Little Port Folio</title>
+    <title>Posts on Archives de réalisations</title>
     <link>http://exemple.org/posts/</link>
-    <description>Recent content in Posts on My Little Port Folio</description>
+    <description>Recent content in Posts on Archives de réalisations</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language><atom:link href="http://exemple.org/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>

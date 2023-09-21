@@ -1,5 +1,5 @@
 baseURL = 'http://exemple.org/'
 languageCode = 'fr'
-title = 'My Little Port Folio'
+title = 'Archives de réalisations'
 theme = 'lightbi-hugo'
 canonifyURLs = true

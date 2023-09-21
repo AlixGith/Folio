@@ -15,7 +15,7 @@ Draft:
 
 ![Alt text](/img/collections/alternant_png.png "")
 
-![Alt text](/img/collections/Luttedes classes.png "")
+![Alt text](/img/collections/Luttedesclasses.png "")
 
 ![Alt text](/img/collections/Première_de_couv_183.png "")
 

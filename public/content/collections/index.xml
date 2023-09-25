@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Collections on Archives de réalisations</title>
+    <title>Archives de réalisations</title>
     <link>http://exemple.org/content/collections/</link>
-    <description>Recent content in Collections on Archives de réalisations</description>
+    <description>Recent content on Archives de réalisations</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
     <lastBuildDate>Mon, 24 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://exemple.org/content/collections/index.xml" rel="self" type="application/rss+xml" />
@@ -13,8 +13,7 @@
       <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>http://exemple.org/content/collections/2023/collections_4/</guid>
-      <description>Insatiable Illustrations réalisées pour le journal étudiant
-![Alt text](/img/collections/Luttedes classes.png &amp;ldquo;&amp;rdquo;)</description>
+      <description>Insatiable Illustrations réalisées pour le journal étudiant</description>
     </item>
     
     <item>

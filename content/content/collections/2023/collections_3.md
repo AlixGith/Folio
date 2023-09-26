@@ -27,6 +27,4 @@ Note : Les planches de bois utilisées viennent de vieilles planches de chênes 
 
 ![Alt text](/img/collections/bureau_2.JPG "")
 
-![Alt text](/img/collections/bureau_3.JPG "")
-
 

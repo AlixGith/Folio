@@ -1,18 +1,21 @@
 {{ define "main" }}
 
-<div class="fw-bold" style="white; !important; padding-left: 20%;"> <strong> Ma position et mes déplacements</strong>
+<div class="fw-bold" style="padding-left: 20%;"> <strong> Ma position et mes déplacements</strong>
 </div>
 
-<div class="map" style="">
-<img src="/img/collections/map_world.png" style="background: #000;overflow: hidden; ">
+<div class="map">
+<img src="/img/collections/map_europe.png" style="background: transparent;overflow: hidden; ">
 <div class="map_emojis Position_moi" style="color: black !important; font-size: 100%; background-color: white; border-radius: 10px">
-<div class="fw-bold" style="white; !important"> <strong> &#128205; France - Lyon</strong>
+<div class="fw-bold"><strong> &#128205; France - Lyon</strong><div class="fw-bold" id="tooltip"> 🔎 <div class="fw-bold" id="tooltiptext" style="text-align: justify; width: auto !important;">En recherche d'emploi</div>
+</div>
 </div></div>
 
 <div class="map_emojis Position_KTH" style="color: black !important; font-size: 100%; background-color: white; border-radius: 10px">
-<div class="fw-bold" style="white; !important"> 🖥️ Stage - KTH
-</div></div>
+<div class="fw-bold" ><strong> 🖥️ Stage - KTH </strong><div class="fw-bold" id="tooltip"> 🔎 <div class="fw-bold" id="tooltiptext" style="text-align: justify; width: auto !important;">Stage de 6 mois en laboratoire à KTH (Stockholm)</div>
 </div>
+</div>
+
+</div></div>
 
 <div class="container" role="main">
   <div class="row">

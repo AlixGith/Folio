@@ -23,7 +23,11 @@ Quelques images de l'état du jeu actuel :
 
 {{< youtube j8EGy2gubUc >}}
 
-Des explications : 
+Les objectifs de l'époque : 
+
+- Jeu FPS-RTS où le.a joueur.euse peut rentrer dans la peau de n'importe quelle unitée pour coordonner et combattre sur le terrain
+- Créer et faire évoluer son camp à travers les âges : médiéval - 17ème siècle - Moderne - Futur
+- Utilisation de bibliothèques gratuites :)
 
 ![Alt text](/img/collections/aaah.png "")
 
@@ -37,7 +41,7 @@ Et d'autres récupérées et modifiées
 
 ![Alt text](/img/collections/tau_2.PNG "") 
 
-Une volonté de créer quelques choses de vraies (sans y parvenir) : 
+Une volonté de créer quelque chose de sympa. 
 
 ![Alt text](/img/collections/Doc_2.PNG "")
 

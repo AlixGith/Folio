@@ -6,7 +6,16 @@
     <description>Recent content in Tags on Archives de réalisations</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Mon, 24 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://exemple.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://exemple.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prog</title>
+      <link>http://exemple.org/tags/prog/</link>
+      <pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://exemple.org/tags/prog/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Dessins</title>
       <link>http://exemple.org/tags/dessins/</link>
@@ -40,15 +49,6 @@
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>http://exemple.org/tags/newsletter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Prog</title>
-      <link>http://exemple.org/tags/prog/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://exemple.org/tags/prog/</guid>
       <description></description>
     </item>
     

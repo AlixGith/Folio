@@ -3,13 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://exemple.org/content/collections/</loc>
-    <lastmod>2023-07-24T00:00:00+00:00</lastmod>
+    <lastmod>2023-10-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://exemple.org/</loc>
-    <lastmod>2023-07-24T00:00:00+00:00</lastmod>
+    <lastmod>2023-10-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://exemple.org/content/</loc>
-    <lastmod>2023-07-24T00:00:00+00:00</lastmod>
+    <lastmod>2023-10-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://exemple.org/content/collections/2023/collections_5/</loc>
+    <lastmod>2023-10-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://exemple.org/tags/prog/</loc>
+    <lastmod>2023-10-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://exemple.org/tags/</loc>
+    <lastmod>2023-10-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://exemple.org/tags/dessins/</loc>
     <lastmod>2023-07-24T00:00:00+00:00</lastmod>
@@ -23,9 +32,6 @@
     <loc>http://exemple.org/content/collections/2023/collections_3/</loc>
     <lastmod>2023-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://exemple.org/tags/</loc>
-    <lastmod>2023-07-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://exemple.org/tags/linkedin/</loc>
     <lastmod>2023-07-21T00:00:00+00:00</lastmod>
   </url><url>
@@ -33,9 +39,6 @@
     <lastmod>2023-07-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://exemple.org/tags/newsletter/</loc>
-    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://exemple.org/tags/prog/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://exemple.org/content/collections/2023/collections_2/</loc>

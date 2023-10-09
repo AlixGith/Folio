@@ -9,7 +9,7 @@ Description: "Articles sur une relique personnelle..."
 Draft: 
 ---
 
-# Il y a 6 ans - Companionship Creeks - 2016-2017
+# Il y a 6 ans - Front War - 2016-2017
 
 *FRONT WAR - Jeu FPS-RTS de stratégie inspiré de Empire Earth*
 

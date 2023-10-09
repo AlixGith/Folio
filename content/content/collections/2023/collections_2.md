@@ -1,7 +1,7 @@
 ---
 Title: KTH - Programmation
 Subtitle: ""
-Date: 2023-01-01
+Date: 2023-10-09
 Lastmod : 
 Tags: ["Prog"]
 image : "/img/collections/kth_logo.jpg"

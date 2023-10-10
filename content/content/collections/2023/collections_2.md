@@ -5,7 +5,7 @@ Date: 2023-10-09
 Lastmod : 
 Tags: ["Prog"]
 image : "/img/collections/kth_logo.jpg"
-Description: "Articles sur les réalisations de logiciels"
+Description: "Article sur sur le stage à KTH "
 Draft: 
 ---
 

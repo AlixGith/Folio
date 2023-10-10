@@ -5,7 +5,7 @@ Date: 2023-10-03
 Lastmod : 
 Tags: ["Prog"]
 image : "/img/collections/tau.PNG"
-Description: "Articles sur une relique personnelle..."
+Description: "Article sur une relique personnelle..."
 Draft: 
 ---
 

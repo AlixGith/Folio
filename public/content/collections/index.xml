@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Archives de réalisations</title>
+    <title>Archives de réalisations de Alix T. CASAS</title>
     <link>http://exemple.org/content/collections/</link>
-    <description>Recent content on Archives de réalisations</description>
+    <description>Recent content on Archives de réalisations de Alix T. CASAS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 03 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://exemple.org/content/collections/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://exemple.org/content/collections/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KTH - Programmation</title>
+      <link>http://exemple.org/content/collections/2023/collections_2/</link>
+      <pubDate>Mon, 09 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://exemple.org/content/collections/2023/collections_2/</guid>
+      <description>2023 - Borehole modelisation - Stage à KTH en Suède de 6 mois Projet dédié à la modélisation et à la commande de trous de forage à l&amp;rsquo;aide de Julia
+Objectifs
+Comprendre le modèle Le modèle est un modèle basé sur des composantes acausales contenant : La composante discrète de convection-diffusion donnant une discrétisation de la température dans le temps et l&amp;rsquo;espace : u(t, x) L&amp;rsquo;instanciation de la couche, fonction de la taille n de u(t, x) Le tracé de la solution Récupération de données réelles Simulation de la propagation de la chaleur du fluide dans le sol et le fluide dans le tube Affichage 3D et dynamique 2D Cliquez pour accéder au GitHub.</description>
+    </item>
+    
     <item>
       <title>Companionship Creeks - Programmation</title>
       <link>http://exemple.org/content/collections/2023/collections_6/</link>
@@ -14,7 +25,8 @@
       
       <guid>http://exemple.org/content/collections/2023/collections_6/</guid>
       <description>Il y a 4 ans - Companionship Creeks - 2018-2020 « Companionship Creeks » - Il y a 4 ans – 2018-2020 Traduit du Français “Ruisseaux d’entraide” - Jeu vidéo
-Réalisation : •	De nature RPG-FPS et open-world, le ou la protagoniste explore le monde et fait ses propres choix influençant une partie de l’histoire. •	Jeu vidéo ayant pour but d’introduire le/la joueur/euse à des notions économiques et politiques. •	Le projet n’a pas abouti par manque de temps et de ressources matérielles.</description>
+A l&amp;rsquo;intérieur du vaisseau mère&amp;hellip; Objectifs :
+De nature RPG-FPS et open-world, le ou la protagoniste explore le monde et fait ses propres choix influençant une partie de l’histoire. Jeu vidéo ayant pour but d’introduire le/la joueur/euse à des notions économiques et politiques.</description>
     </item>
     
     <item>
@@ -23,10 +35,21 @@ Réalisation : •	De nature RPG-FPS et open-world, le ou la protagoniste explor
       <pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>http://exemple.org/content/collections/2023/collections_5/</guid>
-      <description>Il y a 6 ans - Companionship Creeks - 2016-2017 FRONT WAR - Jeu FPS-RTS de stratégie inspiré de Empire Earth
+      <description>Il y a 6 ans - Front War - 2016-2017 FRONT WAR - Jeu FPS-RTS de stratégie inspiré de Empire Earth
 Quelques images de l&amp;rsquo;état du jeu actuel :
 Les objectifs de l&amp;rsquo;époque :
 Jeu FPS-RTS où le.a joueur.euse peut rentrer dans la peau de n&amp;rsquo;importe quelle unitée pour coordonner et combattre sur le terrain Créer et faire évoluer son camp à travers les âges : médiéval - 17ème siècle - Moderne - Futur Utilisation de bibliothèques gratuites :) Premier essai de réalisation de jeu : un bazar pas possible à tous les niveaux mais des résultats&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Drone jardinier - Inf. Embarquée</title>
+      <link>http://exemple.org/content/collections/2023/collections_4/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://exemple.org/content/collections/2023/collections_4/</guid>
+      <description>Il y a 3 ans - DRONE JARDINIER - 2019-2020 *Arduino, Mplabx, Blender (pour des pieces en plastique à modéliser), Proteus (schémas électrique), Vegas pro *
+Planning Réalisations :
+Réalisation de A à Z et établissement du cycle en V Document de fabrication, d’étude, de planning et de conception Vidéo montage de la réalisation Schéma electrique moteur et batterie Dimensionnement et modélisation Position GPS et gyroscope pour l’automatisation et l’arrosage Synoptique fonctionnel et séquentiel Etc.</description>
     </item>
     
     <item>
@@ -48,17 +71,6 @@ Modélisation et dessin sur Solidworks Découpe du bois et récupération de pi�
       <guid>http://exemple.org/content/collections/2023/collections_about/</guid>
       <description>###Mon profil linkedin
 Cliquez pour accéder au Linkedin.</description>
-    </item>
-    
-    <item>
-      <title>Programmation</title>
-      <link>http://exemple.org/content/collections/2023/collections_2/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://exemple.org/content/collections/2023/collections_2/</guid>
-      <description>2023 - Borehole modelisation - Stage à KTH en Suède Projet dédié à la modélisation et à la commande de trous de forage à l&amp;rsquo;aide de Julia
-Objectifs
-Comprendre le modèle Le modèle est un modèle basé sur des composantes acausales contenant : La composante discrète de convection-diffusion donnant une discrétisation de la température dans le temps et l&amp;rsquo;espace : u(t, x) L&amp;rsquo;instanciation de la couche, fonction de la taille n de u(t, x) Le tracé de la solution Cliquez pour accéder au GitHub.</description>
     </item>
     
     <item>

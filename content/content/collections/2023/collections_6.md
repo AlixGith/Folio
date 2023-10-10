@@ -5,7 +5,7 @@ Date: 2023-10-03
 Lastmod : 
 Tags: ["Prog"]
 image : "/img/collections/FPS_CC.png"
-Description: "Articles sur une relique personnelle..."
+Description: "Article sur une relique personnelle..."
 Draft: 
 ---
 
@@ -20,7 +20,6 @@ Objectifs :
 - De nature RPG-FPS et open-world, le ou la protagoniste explore le monde et fait ses propres choix influençant une partie de l’histoire.
 - Jeu vidéo ayant pour but d’introduire le/la joueur/euse à des notions économiques et politiques.
 - Système d’inventaire, d’énergie et de gestion de vaisseaux.
-- Le projet n’a pas abouti par manque de temps et de ressources matérielles. 
 - Menu dynamique et pages de chargement.
 - Modélisation 3D sur blender de terrain.
 - etc.

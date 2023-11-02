@@ -1,5 +1,5 @@
 ---
-Title: FRONT WAR - Programmation
+Title: FRONT WAR - Programmation C#/Javascript
 Subtitle: ""
 Date: 2023-10-03
 Lastmod : 

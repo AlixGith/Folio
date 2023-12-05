@@ -6,16 +6,7 @@
     <description>Recent content in Prog on Archives de réalisations de Alix T. CASAS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 05 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://exemple.org/tags/prog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Front War 2 - Programmation C#/Javascript</title>
-      <link>http://exemple.org/content/collections/2023/collections_7/</link>
-      <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://exemple.org/content/collections/2023/collections_7/</guid>
-      <description>stateDiagram-v2 [] &amp;ndash;&amp;gt; New New &amp;ndash;&amp;gt; Ready: admitted Ready &amp;ndash;&amp;gt; Running: scheduler dispatch Running &amp;ndash;&amp;gt; Ready: interrupt Running &amp;ndash;&amp;gt; Waiting: I/O or event wait Waiting &amp;ndash;&amp;gt; Ready: I/O or event completion Running &amp;ndash;&amp;gt; Terminated: exit Terminated &amp;ndash;&amp;gt; []</description>
-    </item>
-    
+    <lastBuildDate>Mon, 09 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://exemple.org/tags/prog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>KTH - Programmation Julialang</title>
       <link>http://exemple.org/content/collections/2023/collections_2/</link>

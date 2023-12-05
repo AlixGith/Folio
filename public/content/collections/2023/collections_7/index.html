@@ -7,8 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<title>KTH - Programmation Julialang - Archives de réalisations de Alix T. CASAS</title>
-<meta name="description" content="Article sur sur le stage à KTH ">
+<title>Front War 2 - Programmation C#/Javascript - Archives de réalisations de Alix T. CASAS</title>
+<meta name="description" content="Article sur mon projet actuel.">
 <script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -44,8 +44,8 @@
         "@type": "ListItem",
         "position": 3,
         "item": {
-          "@id": "http:\/\/exemple.org\/content\/collections\/2023\/collections_2\/",
-          "name": "Kth programmation julialang"
+          "@id": "http:\/\/exemple.org\/content\/collections\/2023\/collections_7\/",
+          "name": "Front war 2 programmation c# javascript"
         }
     }]
 }
@@ -56,15 +56,15 @@
   "author": {
     "name" : ""
   },
-  "headline": "KTH - Programmation Julialang",
-  "description" : "Article sur sur le stage à KTH ",
+  "headline": "Front War 2 - Programmation C#\/Javascript",
+  "description" : "Article sur mon projet actuel.",
   "inLanguage" : "en",
-  "wordCount":  114 ,
-  "datePublished" : "2023-10-09T00:00:00",
-  "dateModified" : "2023-10-09T00:00:00",
+  "wordCount":  38 ,
+  "datePublished" : "2023-12-05T00:00:00",
+  "dateModified" : "2023-12-05T00:00:00",
   "image" : "http:\/\/exemple.org\/",
   "keywords" : [ "Prog" ],
-  "mainEntityOfPage" : "http:\/\/exemple.org\/content\/collections\/2023\/collections_2\/",
+  "mainEntityOfPage" : "http:\/\/exemple.org\/content\/collections\/2023\/collections_7\/",
   "publisher" : {
     "@type": "Organization",
     "name" : "http:\/\/exemple.org\/",
@@ -78,8 +78,7 @@
 }
 </script>
 
-<meta property="og:image" content="http://exemple.org/img/collections/kth_logo.jpg">
-<meta property="og:url" content="http://exemple.org/content/collections/2023/collections_2/">
+<meta property="og:url" content="http://exemple.org/content/collections/2023/collections_7/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Archives de réalisations de Alix T. CASAS">
    
@@ -158,7 +157,7 @@
 
               
               <h1 class="fw-semibold display-5 lh-1 mb-3"> 
-                KTH - Programmation Julialang
+                Front War 2 - Programmation C#/Javascript
                 
               </h1>
               
@@ -185,35 +184,21 @@
 
       <div class="card-image card-image-blog p-0">
         
-        <img src="http://exemple.org/img/collections/kth_logo.jpg" alt="KTH - Programmation Julialang" class="card-img-bottom img-fluid">
-        
         
       </div>
     </div>
  
     <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
       <article role="main" class="blog-post">
-        <h1 id="2023---borehole-modelisation---stage-à-kth-en-suède-de-6-mois">2023 - Borehole modelisation - Stage à KTH en Suède de 6 mois</h1>
-<p><em>Projet dédié à la modélisation et à la commande de trous de forage à l&rsquo;aide de Julia</em></p>
-<p>Objectifs</p>
-<ul>
-<li>Comprendre le modèle</li>
-<li>Le modèle est un modèle basé sur des composantes acausales contenant :
-<ul>
-<li>La composante discrète de convection-diffusion donnant une discrétisation de la température dans le temps et l&rsquo;espace : u(t, x)</li>
-<li>L&rsquo;instanciation de la couche, fonction de la taille n de u(t, x)</li>
-<li>Le tracé de la solution</li>
-</ul>
-</li>
-<li>Récupération de données réelles
-<ul>
-<li>Simulation de la propagation de la chaleur du fluide dans le sol et le fluide dans le tube</li>
-<li>Affichage 3D et dynamique 2D</li>
-</ul>
-</li>
-</ul>
-<p>Cliquez pour accéder au <a href="https://github.com/CASKTH/Borehole_modelisation">GitHub</a>.</p>
-<p><img src="http://exemple.org/img/collections/3D_courbe.png" alt="Alt text" title=""></p>
+        <p>stateDiagram-v2
+[<em>] &ndash;&gt; New
+New &ndash;&gt; Ready: admitted
+Ready &ndash;&gt; Running: scheduler dispatch
+Running &ndash;&gt; Ready: interrupt
+Running &ndash;&gt; Waiting: I/O or event wait
+Waiting &ndash;&gt; Ready: I/O or event completion
+Running &ndash;&gt; Terminated: exit
+Terminated &ndash;&gt; [</em>]</p>
 
       </article>
     </div>
@@ -271,19 +256,13 @@
           
           <li class="list-group-item b-0">
 
-            <a type="button" class="btn btn-dark" role="button" href="http://exemple.org/content/collections/2023/collections_6/"
-              data-toggle="tooltip" data-placement="top" title="Companionship Creeks - Programmation C#/Javascript">&larr;
+            <a type="button" class="btn btn-dark" role="button" href="http://exemple.org/content/collections/2023/collections_2/"
+              data-toggle="tooltip" data-placement="top" title="KTH - Programmation Julialang">&larr;
               Previous Post</a>
           </li>
           
 
 
-          
-          <li class="list-group-item ms-auto b-0">
-            <a type="button" class="btn btn-dark" role="button" href="http://exemple.org/content/collections/2023/collections_7/"
-              data-toggle="tooltip" data-placement="top" title="Front War 2 - Programmation C#/Javascript">Next Post
-              &rarr;</a>
-          </li>
           
         </ul>
         

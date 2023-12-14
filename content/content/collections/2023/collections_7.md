@@ -19,16 +19,19 @@ Draft:
 Objectifs :
 
 - Jeu en Real Time strategy macroscopique.
-- 
+  
 - Créer et faire évoluer son camp à travers les âges : Fin du 17 ème - Epoque Pikes & Shottes
-- 
+  
 - Utilisation de bibliothèques gratuites et libre de droit.
-- 
+  
 - Traçabilité des exigences et arborescence : réaliser l'exigence "client" jusqu'à la ligne de code.
-- 
+  
 - Multijoueur avec serveur client-side pour une grosse partie des ressources.
-- 
+  
 - Mode de jeu "scalable" en fonctione du nombre de joueur. 
+
+- Open-source et première version sur github. 
+
 
 *Le principe du cycle en V sera mis en place.  Cycle en V réalisé sous Visio :*
 ![Alt text](/img/collections/Cycle_en_v.PNG "")

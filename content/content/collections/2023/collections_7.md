@@ -4,7 +4,7 @@ Subtitle: ""
 Date: 2023-12-14
 Lastmod : 
 Tags: ["Prog"]
-image : "/img/collections/pikes_shots.JPG"
+image : "/img/collections/pikes_shots.jpg"
 Description: "Article sur le dernier projet personnel."
 Draft: 
 ---

@@ -22,7 +22,7 @@ Objectifs :
 
 - Vue orthograophique et design retro (inspirations Cossacks:Art of War, Age of Empire 2 et empire earth).
 
-- Ne doit pas depasser mon espace de disque dur libre : 1 Go.
+- Ne doit pas depasser en taille l'espace de mon disque dur (libre) : 1 Go.
   
 - Créer et faire évoluer son camp à travers l'une des époque l'est plus révolutionnaire au niveau technique et culturel : Fin du 17 ème - Epoque Pikes & Shottes
   

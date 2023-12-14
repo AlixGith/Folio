@@ -4,7 +4,7 @@ Subtitle: ""
 Date: 2023-12-14
 Lastmod : 
 Tags: ["Prog"]
-image : ""
+image : "/img/collections/Cycle_en_v.PNG "
 Description: "Article sur le dernier projet personnel."
 Draft: 
 ---

@@ -17,16 +17,20 @@ Draft:
 ![Alt text](/img/collections/qualification.PNG "")
 
 Objectifs :
-- De nature RPG-FPS et open-world, le ou la protagoniste explore le monde et fait ses propres choix influençant une partie de l’histoire.
-- Jeu vidéo ayant pour but d’introduire le/la joueur/euse à des notions économiques et politiques.
-- Système d’inventaire, d’énergie et de gestion de vaisseaux.
-- Menu dynamique et pages de chargement.
-- Modélisation 3D sur blender de terrain.
-- etc.
+-Jeu en Real Time strategy macroscopique. 
+-Créer et faire évoluer son camp à travers les âges : Fin du 17 ème - Epoque Pikes & Shottes
+-Utilisation de bibliothèques gratuites et libre de droit.
+-Traçabilité des exigences et arborescence : réaliser l'exigence "client" jusqu'à la ligne de code. 
+-Multijoueur avec serveur client-side pour une grosse partie des ressources.
+-Mode de jeu "scalable" en fonctione du nombre de joueur. 
 
 *Le principe du cycle en V sera mis en place.  Cycle en V réalisé sous Visio :*
 ![Alt text](/img/collections/Cycle_en_v.PNG "")
 
+*Server client-side. Schéma à revoir, simplment illsutratif : *
+![Alt text](/img/collections/reseau_spec.PNG "")
 
+*Exigence du cahier de spécification logiciel concernant les interfaces/menus. *
+![Alt text](/img/collections/interfaces.PNG "")
 
 Logiciels / Outils : Unity 3D, Blender, mermaid, jira, confluence. 

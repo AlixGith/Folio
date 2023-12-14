@@ -1,5 +1,5 @@
 ---
-Title: Front War 2 - *When the lead strikes the steel* - C#/Javascript/traçabilité
+Title: Front War 2 - When the lead strikes the steel - C#/Javascript/traçabilité
 Subtitle: ""
 Date: 2023-12-14
 Lastmod : 
@@ -9,7 +9,7 @@ Description: "Article sur le dernier projet personnel."
 Draft: 
 ---
 
-# Novembre 2023 - *When the lead strikes the steel* - Front War 2 - Jeu RTS 
+# Novembre 2023 - *When the lead strikes the steel* - Jeu RTS 
 
 *Dans la nostalgie et dans la volonté de continuer ma passion, je décide de reprendre les idées de mon premier projet de Jeu datant de 2016. - Jeu vidéo*
 

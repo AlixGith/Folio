@@ -24,7 +24,7 @@ Objectifs :
 
 - Ne doit pas depasser en taille l'espace de mon disque dur (libre) : 1 Go.
   
-- Créer et faire évoluer son camp à travers l'une des époque l'est plus révolutionnaire au niveau technique et culturel : Fin du 17 ème - Epoque Pikes & Shottes
+- Créer et faire évoluer son camp à travers l'une des époques la plus révolutionnaire au niveau technique et culturel : Fin du 17 ème - Epoque Pikes & Shottes
   
 - Utilisation de bibliothèques gratuites et libre de droit.
   

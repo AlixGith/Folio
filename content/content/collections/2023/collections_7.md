@@ -1,7 +1,7 @@
 ---
 Title: Front War 2 - C#/Javascript/traçabilité
 Subtitle: ""
-Date: 2023-14-12
+Date: 2023-12-14
 Lastmod : 
 Tags: ["Prog"]
 image : ""
@@ -27,10 +27,10 @@ Objectifs :
 *Le principe du cycle en V sera mis en place.  Cycle en V réalisé sous Visio :*
 ![Alt text](/img/collections/Cycle_en_v.PNG "")
 
-*Server client-side. Schéma à revoir, simplment illsutratif : *
+*Server client-side. Schéma à revoir, simplment illsutratif :*
 ![Alt text](/img/collections/reseau_spec.PNG "")
 
-*Exigence du cahier de spécification logiciel concernant les interfaces/menus. *
+*Exigence du cahier de spécification logiciel concernant les interfaces/menus.*
 ![Alt text](/img/collections/interfaces.PNG "")
 
 Logiciels / Outils : Unity 3D, Blender, mermaid, jira, confluence. 

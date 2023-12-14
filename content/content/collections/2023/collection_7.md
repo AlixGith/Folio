@@ -14,7 +14,7 @@ Draft:
 *Dans la nostalgie et dans la volonté de continuer ma passion, je décide de reprendre les idées de mon premier projet de Jeu datant de 2016. - Jeu vidéo*
 
 *Je souhaite suivre de bout en bout une rigueur de réalisation : traçabilité, standardisation et conformité. Organigramme réalisé sous Visio :*
-![Alt text](/img/collections/qualification.png "")
+![Alt text](/img/collections/qualification.PNG "")
 
 Objectifs :
 - De nature RPG-FPS et open-world, le ou la protagoniste explore le monde et fait ses propres choix influençant une partie de l’histoire.
@@ -25,7 +25,7 @@ Objectifs :
 - etc.
 
 *Le principe du cycle en V sera mis en place.  Cycle en V réalisé sous Visio :*
-![Alt text](/img/collections/Cycle_en_v.png "")
+![Alt text](/img/collections/Cycle_en_v.PNG "")
 
 
 

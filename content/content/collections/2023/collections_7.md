@@ -46,4 +46,8 @@ Objectifs :
 *Exigence du cahier de spécification logiciel concernant les interfaces/menus :*
 ![Alt text](/img/collections/interfaces.PNG "")
 
+*Exigence du cahier de spécification logiciel concernant l'architecture de programmation, on définira ici le back-end comme ce qui ne se voit pas et le front-end comme ce qui se voit :*
+![Alt text](/img/collections/Organigramme_p.PNG "")
+
+
 Logiciels / Outils : Unity 3D, Blender, mermaid, jira, confluence. 

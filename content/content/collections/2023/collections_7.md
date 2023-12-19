@@ -50,8 +50,7 @@ Objectifs :
 ![Alt text](/img/collections/Organigramme_p.PNG "")
 
 
-<object data="/blog/images/Organigramme_p_2.pdf" type="application/pdf" width="100%"> 
-</object>
+![some discription](/blog/images/Organigramme_p_2.pdf "some discription")
 
 
 Logiciels / Outils : Unity 3D, Blender, mermaid, jira, confluence. 

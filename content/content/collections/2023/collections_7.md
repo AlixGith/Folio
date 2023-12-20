@@ -47,11 +47,8 @@ Objectifs :
 ![Alt text](/img/collections/interfaces.PNG "")
 
 *Exigence du cahier de spécification logiciel concernant l'architecture de programmation, on définira ici le back-end comme ce qui ne se voit pas et le front-end comme ce qui se voit :*
-
-<object data="[/img/collections/Organigramme_p_2.pdf](https://github.com/AlixGith/Folio/blob/main/public/img/collections/Organigramme_p_2.pdf)" type="application/pdf" width="700px" height="700px">
-    <embed src="[/img/collections/Organigramme_p_2.pdf](https://github.com/AlixGith/Folio/blob/main/public/img/collections/Organigramme_p_2.pdf)">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="[/img/collections/Organigramme_p_2.pdf](https://github.com/AlixGith/Folio/blob/main/public/img/collections/Organigramme_p_2.pdf)">Download PDF</a>.</p>
-    </embed>
-</object>
+![Alt text](/img/collections/Organigramme_p_2_page-0001.JPG "")
+![Alt text](/img/collections/Organigramme_p_2_page-0002.JPG "")
+![Alt text](/img/collections/Organigramme_p_2_page-0003.JPG "")
 
 Logiciels / Outils : Unity 3D, Blender, mermaid, jira, confluence. 

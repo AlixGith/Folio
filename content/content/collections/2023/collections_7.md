@@ -47,8 +47,8 @@ Objectifs :
 ![Alt text](/img/collections/interfaces.PNG "")
 
 *Exigence du cahier de spécification logiciel concernant l'architecture de programmation, on définira ici le back-end comme ce qui ne se voit pas et le front-end comme ce qui se voit :*
-![Alt text](/img/collections/Organigramme_p_2_page-0001.JPG "")
-![Alt text](/img/collections/Organigramme_p_2_page-0002.JPG "")
-![Alt text](/img/collections/Organigramme_p_2_page-0003.JPG "")
+![Alt text](/img/collections/Organigramme_p_2_page-0001.jpg "")
+![Alt text](/img/collections/Organigramme_p_2_page-0002.jpg "")
+![Alt text](/img/collections/Organigramme_p_2_page-0003.jpg "")
 
 Logiciels / Outils : Unity 3D, Blender, mermaid, jira, confluence. 

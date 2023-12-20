@@ -20,7 +20,7 @@ Objectifs :
 
 - Jeu en Real Time strategy macroscopique.
 
-- Vue orthograophique et design retro (inspirations Cossacks:Art of War, Age of Empire 2 et empire earth).
+- Vue orthographique et design retro (inspirations Cossacks:Art of War, Age of Empire 2 et empire earth).
 
 - Ne doit pas depasser en taille l'espace de mon disque dur (libre) : 1 Go.
   

@@ -9,7 +9,7 @@ Description: "Article sur le dernier projet personnel."
 Draft: 
 ---
 
-# Novembre 2023 - *When the lead strikes the steel* - Jeu RTS 
+<h1> Novembre 2023 - *When the lead strikes the steel* - Jeu RTS </h1>
 
 *Dans la nostalgie et dans la volonté de continuer ma passion, je décide de reprendre les idées de mon premier projet de Jeu datant de 2016. - Jeu vidéo*
 
@@ -52,7 +52,9 @@ Objectifs :
 ![Alt text](/img/collections/Organigramme_p_2_page-0003.jpg "")
 
 
-#Code pour la triangulation de delaunay et la recherche du point le plus proche : 
+<h1> Code pour la triangulation de delaunay et la recherche du point le plus proche </h1>
+
+On utilise les librairies : UnityOctree et Triangle.NET
 
 ```
 
@@ -109,6 +111,8 @@ public class Runtime_map_manager : MonoBehaviour
 }
 
 // HOW OCTREE Could work : 
+
+// root is the top level node of the octreenode. Le code suivant est tiré d'un exemple de comment un octree peut fonctionner, il ne compile pas 
 
 public Vector3 FindClosestPoint(Vector3 point)
 {

@@ -65,20 +65,21 @@ using System.Collections.Generic;
 
 public class Runtime_map_manager : MonoBehaviour 
 {
+
     public List<Vector3> vertices;
     Octree octree;
     LineRenderer lineRenderer;
 
-    void Start() 
+    void Update() 
     {
-        // Create and populate the Octree with vertices
+        // Create and populate the Octree
         octree = new Octree(10, Vector3.zero, 1);
         foreach (var vertex in vertices)
         {
             octree.Add(vertex);
         }
 
-        // Perform Delaunay triangulation on vertices
+        // Perform Delaunay triangulation on the points
         InputGeometry input = new InputGeometry(vertices.Count);
         foreach (var vertex in vertices)
         {
@@ -86,7 +87,7 @@ public class Runtime_map_manager : MonoBehaviour
         }
 
         var mesh = new StandardMesher().Triangulate(input);
-        
+
         // Retrieve the vertices after triangulation
         vertices.Clear();
         foreach (var vertex in mesh.Vertices)
@@ -94,7 +95,7 @@ public class Runtime_map_manager : MonoBehaviour
             vertices.Add(new Vector3((float)vertex.X, (float)vertex.Y, (float)vertex.Z));
         }
 
-        // Create a LineRenderer
+        // Setup LineRenderer
         lineRenderer = gameObject.AddComponent<LineRenderer>();
         lineRenderer.material = new Material(Shader.Find("Particles/Standard Unlit"));
         lineRenderer.widthMultiplier = 0.2f;

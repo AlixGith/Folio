@@ -52,7 +52,7 @@ Objectifs :
 ![Alt text](/img/collections/Organigramme_p_2_page-0003.jpg "")
 
 
-Code pour la triangulation de delaunay et la recherche du point le plus proche : 
+#Code pour la triangulation de delaunay et la recherche du point le plus proche : 
 
 ```
 

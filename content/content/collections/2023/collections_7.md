@@ -24,7 +24,7 @@ Objectifs :
 
 - Ne doit pas depasser en taille l'espace de mon disque dur (libre) : 1 Go.
   
-- Créer et faire évoluer son camp à travers l'une des époques la plus révolutionnaire au niveau technique et culturel : Fin du 17 ème - Epoque Pikes & Shottes
+- Créer et faire évoluer son camp à travers l'une des époques les plus révolutionnaires au niveau technique et culturel : 16ème à la Fin du 17 ème - Epoque Pikes & Shottes - L'arrivée des européens en Amérique etc.
   
 - Utilisation de bibliothèques gratuites et libre de droit.
   
@@ -55,12 +55,13 @@ Objectifs :
 Code pour la triangulation de delaunay et la recherche du point le plus proche : 
 
 ```
+
 using UnityEngine;
 using TriangleNet.Geometry;
 using TriangleNet.Meshing;
 using System.Collections.Generic;
 
-public class ConnectClosestPoints : MonoBehaviour 
+public class Runtime_map_manager : MonoBehaviour 
 {
     public List<Vector3> vertices;
     Octree octree;

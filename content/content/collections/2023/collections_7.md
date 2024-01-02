@@ -9,7 +9,7 @@ Description: "Article sur le dernier projet personnel."
 Draft: 
 ---
 
-<h1> Novembre 2023 - *When the lead strikes the steel* - Jeu RTS </h1>
+# Novembre 2023 - *When the lead strikes the steel* - Jeu RTS 
 
 *Dans la nostalgie et dans la volonté de continuer ma passion, je décide de reprendre les idées de mon premier projet de Jeu datant de 2016. - Jeu vidéo*
 
@@ -52,7 +52,7 @@ Objectifs :
 ![Alt text](/img/collections/Organigramme_p_2_page-0003.jpg "")
 
 
-<h1> Code pour la triangulation de delaunay et la recherche du point le plus proche </h1>
+# Code pour la triangulation de delaunay et la recherche du point le plus proche
 
 On utilise les librairies : UnityOctree et Triangle.NET
 

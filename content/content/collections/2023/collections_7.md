@@ -51,4 +51,94 @@ Objectifs :
 ![Alt text](/img/collections/Organigramme_p_2_page-0002.jpg "")
 ![Alt text](/img/collections/Organigramme_p_2_page-0003.jpg "")
 
+
+Code pour la triangulation de delaunay et la recherche du point le plus proche : 
+
+```
+using UnityEngine;
+using TriangleNet.Geometry;
+using TriangleNet.Meshing;
+using System.Collections.Generic;
+
+public class ConnectClosestPoints : MonoBehaviour 
+{
+    public List<Vector3> vertices;
+    Octree octree;
+    LineRenderer lineRenderer;
+
+    void Start() 
+    {
+        // Create and populate the Octree with vertices
+        octree = new Octree(10, Vector3.zero, 1);
+        foreach (var vertex in vertices)
+        {
+            octree.Add(vertex);
+        }
+
+        // Perform Delaunay triangulation on vertices
+        InputGeometry input = new InputGeometry(vertices.Count);
+        foreach (var vertex in vertices)
+        {
+            input.AddPoint(vertex.x, vertex.y, vertex.z);
+        }
+
+        var mesh = new StandardMesher().Triangulate(input);
+        
+        // Retrieve the vertices after triangulation
+        vertices.Clear();
+        foreach (var vertex in mesh.Vertices)
+        {
+            vertices.Add(new Vector3((float)vertex.X, (float)vertex.Y, (float)vertex.Z));
+        }
+
+        // Create a LineRenderer
+        lineRenderer = gameObject.AddComponent<LineRenderer>();
+        lineRenderer.material = new Material(Shader.Find("Particles/Standard Unlit"));
+        lineRenderer.widthMultiplier = 0.2f;
+        lineRenderer.positionCount = vertices.Count * 2;
+
+        // Find closest points and draw lines
+        for (int i = 0; i < vertices.Count; i++)
+        {
+            var closestPoint = octree.FindClosestPoint(vertices[i]);
+            lineRenderer.SetPosition(i * 2, vertices[i]);
+            lineRenderer.SetPosition(i * 2 + 1, closestPoint);
+        }
+    }
+}
+
+// HOW OCTREE Could work : 
+
+public Vector3 FindClosestPoint(Vector3 point)
+{
+    return FindClosestPoint(root, point, float.MaxValue, null);
+}
+
+private Vector3 FindClosestPoint(OctreeNode node, Vector3 point, float currentClosestSqrDistance, Vector3 currentClosestPoint)
+{
+    // If the node is further away than the current closest point, return the current closest point
+    if (node.bounds.SqrDistance(point) > currentClosestSqrDistance)
+    {
+        return currentClosestPoint;
+    }
+    // Go through each point in the node and update the closest point if necessary
+    foreach (var nodePoint in node.points)
+    {
+        var sqrDistance = (nodePoint - point).sqrMagnitude;
+        if (sqrDistance < currentClosestSqrDistance)
+        {
+            currentClosestSqrDistance = sqrDistance;
+            currentClosestPoint = nodePoint;
+        }
+    }
+    // Go through each child of the node and recursively call this method
+    foreach (var child in node.children)
+    {
+        currentClosestPoint = FindClosestPoint(child, point, currentClosestSqrDistance, currentClosestPoint);
+    }
+    return currentClosestPoint;
+}
+```
+
+
 Logiciels / Outils : Unity 3D, Blender, mermaid, jira, confluence. 

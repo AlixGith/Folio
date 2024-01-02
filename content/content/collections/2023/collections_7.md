@@ -56,6 +56,13 @@ Objectifs :
 
 On utilise les librairies : UnityOctree et Triangle.NET
 
+1. Triangulation : Unity n'a pas de support intégré pour la triangulation de Delaunay. Cependant, on peut utiliser des bibliothèques tierces comme Triangle.NET qui peuvent gérer cela. La triangulation de Delaunay est un algorithme qui peut être utilisé pour générer un maillage à partir d'une liste de points Vector3. Il génère des triangles de telle sorte qu'aucun point ne se trouve à l'intérieur du cercle circonscrit d'un triangle.
+
+2. Trouver les points les plus proches : Après la triangulation de Delaunay, on souhaitez trouver les points les plus proches dans le maillage généré. Pour cela, on utilise la structure de données Octree dans Unity. La structure de données Octree est efficace pour les requêtes spatiales telles que la recherche des points les plus proches. 
+
+3. Dessiner des lignes : Le composant LineRenderer de Unity peut être utilisé pour dessiner une ligne entre deux ou plusieurs points dans l'espace 3D. Une fois que l'on a les points les plus proches, on peut utiliser LineRenderer pour dessiner des lignes entre chaque point et son voisin le plus proche.
+
+
 ```
 
 using UnityEngine;

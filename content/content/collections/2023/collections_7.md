@@ -35,9 +35,9 @@ Objectifs :
 - Mode de jeu "scalable" en fonction du nombre de joueur. 
 
 - Open-source et première version qui sera sur github.
-- 
+  
 *Exigence du cahier de spécification logiciel concernant les interfaces/menus :*
-![Alt text](/img/collections/pikes_shots_2.PNG "")
+![Alt text](/img/collections/pikes_shots_2.jpg "")
 
 
 *Le principe du cycle en V sera mis en place.  Cycle en V réalisé sous Visio :*

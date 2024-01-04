@@ -63,10 +63,10 @@ On utilise les librairies : UnityOctree et Triangle.NET
 3. Dessiner des lignes : Le composant LineRenderer de Unity peut être utilisé pour dessiner une ligne entre deux ou plusieurs points dans l'espace 3D. Une fois que l'on a les points les plus proches, on peut utiliser LineRenderer pour dessiner des lignes entre chaque point et son voisin le plus proche.
 
 *Résultat de triangulation des points en mouvement: *
-![Alt text](/img/collections/tiangulation_1.PNG "")
+![Alt text](/img/collections/tiangulation_1.png "")
 
 *Résultat de triangulation des points statiques: *
-![Alt text](/img/collections/tiangulation_1.PNG "")
+![Alt text](/img/collections/tiangulation_1.png "")
 
 Code fonctionnel contenant seulement la triangulation : 
 

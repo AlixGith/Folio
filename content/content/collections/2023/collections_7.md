@@ -62,95 +62,161 @@ On utilise les librairies : UnityOctree et Triangle.NET
 
 3. Dessiner des lignes : Le composant LineRenderer de Unity peut être utilisé pour dessiner une ligne entre deux ou plusieurs points dans l'espace 3D. Une fois que l'on a les points les plus proches, on peut utiliser LineRenderer pour dessiner des lignes entre chaque point et son voisin le plus proche.
 
+*Résultat de triangulation des points en mouvement: *
+![Alt text](/img/collections/tiangulation_1.PNG "")
+
+*Résultat de triangulation des points statiques: *
+![Alt text](/img/collections/tiangulation_1.PNG "")
+
+Code fonctionnel contenant seulement la triangulation : 
 
 ```
-
 using UnityEngine;
-using TriangleNet.Geometry;
 using TriangleNet.Meshing;
+using TriangleNet.Geometry;
+using TriangleNet.Meshing.Algorithm;
+using TriangleNet.Meshing;
+using TriangleNet.Smoothing;
+using TriangleNet.IO;
 using System.Collections.Generic;
 
-public class Runtime_map_manager : MonoBehaviour 
+public class triangulation_code : MonoBehaviour 
 {
+    public List<Transform> All_unit = new List<Transform>();
+    public List<Vector3> vertices = new List<Vector3>();
+    PointOctree<Vector3> octree;
 
-    public List<Vector3> vertices;
-    Octree octree;
     LineRenderer lineRenderer;
+    Bounds bounds; 
 
+    void Start()
+    {
+        // Create a LineRenderer
+            lineRenderer = gameObject.GetComponent<LineRenderer>();
+            lineRenderer.widthMultiplier = 2f;
+                        // Create and populate the Octree with vertices
+            Bounds bounds = new Bounds(All_unit[0].position, All_unit[All_unit.Count-1].position*10); 
+
+    }
     void Update() 
     {
-        // Create and populate the Octree
-        octree = new Octree(10, Vector3.zero, 1);
-        foreach (var vertex in vertices)
+        if(All_unit !=null)
         {
-            octree.Add(vertex);
-        }
 
-        // Perform Delaunay triangulation on the points
-        InputGeometry input = new InputGeometry(vertices.Count);
-        foreach (var vertex in vertices)
+            lineRenderer.positionCount = 0;
+
+            //octree = new PointOctree<Vector3>(bounds.size.x, bounds.center, 0);
+            vertices.Clear(); 
+
+            for (int i = 0; i < All_unit.Count; i++)
+            {
+                vertices.Add(All_unit[i].position);
+                
+            }
+
+
+            // Perform Delaunay triangulation on vertices
+            
+            var input = new Polygon(All_unit.Count);
+            
+            
+            foreach (var vertex in vertices)
+            {
+                input.Add(new Vertex(vertex.x, vertex.z));
+                
+                //octree.Add(vertex, vertex);
+            }
+
+            
+
+            // Generate mesh.
+            var options = new ConstraintOptions() { ConformingDelaunay = true};
+            var quality = new QualityOptions() { MinimumAngle = 30 };
+            
+            var mesh = input.Triangulate(options, quality);
+            
+            
+            // var config = new TriangleNet.Configuration();
+            
+            //mesh = triangulator.Triangulate(mesh,config);
+
+            //var smoother = new SimpleSmoother();
+
+            // Smooth mesh.
+            //smoother.Smooth(mesh, All_unit.Count*2, .05);
+
+            List<Vector3> newvertices = new List<Vector3>(); 
+
+
+            foreach (var vertex in mesh.Vertices)
+            {
+                newvertices.Add(new Vector3((float)vertex.X, 0, (float)vertex.Y));
+            }
+            
+           
+            
+            
+            //lineRenderer.material = new Material(Shader.Find("Particles/Standard Unlit"));
+            
+            lineRenderer.positionCount = mesh.Triangles.Count*3;
+            //lineRenderer.SetPositions(newvertices); 
+
+            
+            List<Vector3> positions_upt = new List<Vector3>(); 
+
+            foreach(var triangle in mesh.Triangles)
+            {
+                int label = triangle.Label;
+
+                if (label < 0 )
+                {
+                    Debug.Log("MFEM element attributes must be positive.");
+                }else{
+                    if(triangle.GetVertexID(0) < newvertices.Count && triangle.GetVertexID(0) >=0 )
+                        {positions_upt.Add(newvertices[triangle.GetVertexID(0)]);}
+                    if(triangle.GetVertexID(1) < newvertices.Count && triangle.GetVertexID(1) >=0 )
+                        {positions_upt.Add(newvertices[triangle.GetVertexID(1)]);}
+                    if(triangle.GetVertexID(2) < newvertices.Count && triangle.GetVertexID(2) >=0 )
+                        {positions_upt.Add(newvertices[triangle.GetVertexID(2)]);}
+                }
+                
+                
+
+            }
+
+            lineRenderer.SetPositions(positions_upt.ToArray()); 
+            // Find closest points and draw lines
+            /*
+            for (int i = 0; i < newvertices.Count; i++)
+            {
+                //var closestPoint = FindNearestPoint(newvertices[i], newvertices);
+                lineRenderer.SetPosition(i * 2, newvertices[i]);
+                lineRenderer.SetPosition(i * 2 + 1, closestPoint);
+            }
+            */
+           
+        }
+    }
+
+    Vector3 FindNearestPoint(Vector3 point, List<Vector3> vertices)
+    {
+        float closestDistance = float.MaxValue;
+        Vector3 closestpoint = Vector3.zero;
+
+        foreach(var vertex in vertices)
         {
-            input.AddPoint(vertex.x, vertex.y, vertex.z);
+            float distance = Vector3.Distance(new Vector3(point.x,0,point.z), new Vector3(vertex.x, 0, vertex.z)); 
+
+            if(distance < closestDistance)
+            {
+                closestDistance = distance; 
+                closestpoint = vertex; 
+            }
         }
-
-        var mesh = new StandardMesher().Triangulate(input);
-
-        // Retrieve the vertices after triangulation
-        vertices.Clear();
-        foreach (var vertex in mesh.Vertices)
-        {
-            vertices.Add(new Vector3((float)vertex.X, (float)vertex.Y, (float)vertex.Z));
-        }
-
-        // Setup LineRenderer
-        lineRenderer = gameObject.AddComponent<LineRenderer>();
-        lineRenderer.material = new Material(Shader.Find("Particles/Standard Unlit"));
-        lineRenderer.widthMultiplier = 0.2f;
-        lineRenderer.positionCount = vertices.Count * 2;
-
-        // Find closest points and draw lines
-        for (int i = 0; i < vertices.Count; i++)
-        {
-            var closestPoint = octree.FindClosestPoint(vertices[i]);
-            lineRenderer.SetPosition(i * 2, vertices[i]);
-            lineRenderer.SetPosition(i * 2 + 1, closestPoint);
-        }
+        return closestpoint; 
     }
 }
 
-// HOW OCTREE Could work : 
-
-// root is the top level node of the octreenode. Le code suivant est tiré d'un exemple de comment un octree peut fonctionner, il ne compile pas 
-
-public Vector3 FindClosestPoint(Vector3 point)
-{
-    return FindClosestPoint(root, point, float.MaxValue, null);
-}
-
-private Vector3 FindClosestPoint(OctreeNode node, Vector3 point, float currentClosestSqrDistance, Vector3 currentClosestPoint)
-{
-    // If the node is further away than the current closest point, return the current closest point
-    if (node.bounds.SqrDistance(point) > currentClosestSqrDistance)
-    {
-        return currentClosestPoint;
-    }
-    // Go through each point in the node and update the closest point if necessary
-    foreach (var nodePoint in node.points)
-    {
-        var sqrDistance = (nodePoint - point).sqrMagnitude;
-        if (sqrDistance < currentClosestSqrDistance)
-        {
-            currentClosestSqrDistance = sqrDistance;
-            currentClosestPoint = nodePoint;
-        }
-    }
-    // Go through each child of the node and recursively call this method
-    foreach (var child in node.children)
-    {
-        currentClosestPoint = FindClosestPoint(child, point, currentClosestSqrDistance, currentClosestPoint);
-    }
-    return currentClosestPoint;
-}
 ```
 
 

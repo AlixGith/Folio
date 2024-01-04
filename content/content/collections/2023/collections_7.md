@@ -66,7 +66,7 @@ On utilise les librairies : UnityOctree et Triangle.NET
 ![Alt text](/img/collections/triangulation_1.png "")
 
 *Résultat de triangulation des points statiques: *
-![Alt text](/img/collections/triangulation_1.png "")
+![Alt text](/img/collections/triangulation_2.png "")
 
 Code fonctionnel contenant seulement la triangulation : 
 

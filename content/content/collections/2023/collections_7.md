@@ -36,7 +36,7 @@ Objectifs :
 
 - Open-source et première version qui sera sur github.
   
-*Exigence du cahier de spécification logiciel concernant les interfaces/menus :*
+
 ![Alt text](/img/collections/pikes_shots_2.jpg "")
 
 

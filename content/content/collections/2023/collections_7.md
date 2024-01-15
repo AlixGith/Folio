@@ -55,6 +55,23 @@ Objectifs :
 ![Alt text](/img/collections/Organigramme_p_2_page-0003.jpg "")
 
 
+*Civilisation Astèque, mindmap*
+
+![Alt text](/img/collections/Aztec_tree.PNG "")
+
+*Civilisation Mongole, mindmap*
+
+![Alt text](/img/collections/Mughal_tree.PNG "")
+
+*Civilisation Indienne, mindmap*
+
+![Alt text](/img/collections/India_tree.PNG "")
+
+*Civilisation Chinoise, mindmap*
+
+![Alt text](/img/collections/China_tree.PNG "")
+
+
 # Code pour la triangulation de delaunay et la recherche du point le plus proche
 
 On utilise les librairies : UnityOctree et Triangle.NET

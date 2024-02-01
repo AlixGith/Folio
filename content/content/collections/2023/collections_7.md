@@ -89,7 +89,7 @@ Objectifs :
 
 On utilise la librairie : TasharenFogOfWar : https://github.com/insominx/TasharenFogOfWar
 
-![Alt text](/img/collections/unite_differentes.png "")
+![Alt text](/img/collections/unite_differents.png "")
 
 
 # Code pour la triangulation de delaunay et la recherche du point le plus proche

@@ -93,11 +93,11 @@ Objectifs :
 
 # Code pour l'isométrie
 
-*Il est possible de choisir, selon la civilisation du joueur ou de la joueuse, des batiments différents. Ils ont des tailles différentes. Ici "chinampas est de taille 2. *
+*Il est possible de choisir, selon la civilisation du joueur ou de la joueuse, des batiments différents. Ils ont des tailles différentes. Ici "chinampas est de taille 2.*
 
 ![Alt text](/img/collections/iso_build.png "")
 
-*A partir d'une matrice 2D et de la position des cases du batiments (de leur position), on détermine si on a de l'eau (case rouge), un arbre (case blanche) ou de la terre (case verte) *
+*A partir d'une matrice 2D et de la position des cases du batiments (de leur position), on détermine si on a de l'eau (case rouge), un arbre (case blanche) ou de la terre (case verte)*
 
 ![Alt text](/img/collections/iso_map.png "")
 
@@ -119,11 +119,11 @@ On utilise la librairie : Triangle.NET : https://github.com/wo80/Triangle.NET/
 3. Dessiner des lignes : Le composant LineRenderer de Unity peut être utilisé pour dessiner une ligne entre deux ou plusieurs points dans l'espace 3D. Une fois que l'on a les points les plus proches, on peut utiliser LineRenderer pour dessiner des lignes entre chaque point et son voisin le plus proche.
 4. 
 
-*Résultat de triangulation des points en mouvement: *
+*Résultat de triangulation des points en mouvement:*
 
 ![Alt text](/img/collections/triangulation_1.png "")
 
-*Résultat de triangulation des points statiques: *
+*Résultat de triangulation des points statiques:*
 
 ![Alt text](/img/collections/triangulation_2.png "")
 

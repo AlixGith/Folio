@@ -81,7 +81,11 @@ Objectifs :
 
 # Code pour l'isométrie
 
+*Il est possible de choisir, selon la civilisation du joueur ou de la joueuse, des batiments différents. Ils ont des tailles différentes. Ici "chinampas est de taille 2. *
+
 ![Alt text](/img/collections/iso_build.png "")
+
+*A partir d'une matrice 2D et de la position des cases du batiments (de leur position), on détermine si on a de l'eau (case rouge), un arbre (case blanche) ou de la terre (case verte) *
 
 ![Alt text](/img/collections/iso_map.png "")
 

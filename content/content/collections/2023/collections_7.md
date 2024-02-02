@@ -79,6 +79,18 @@ Objectifs :
 
 ![Alt text](/img/collections/Spain_tree.PNG "")
 
+*Civilisation Ottomane, mindmap*
+
+![Alt text](/img/collections/ottoman_tree.PNG "")
+
+*Civilisation Japonaise, mindmap*
+
+![Alt text](/img/collections/Japanese_tree.PNG "")
+
+*Civilisation Anglaise, mindmap*
+
+![Alt text](/img/collections/English_tree.PNG "")
+
 # Code pour l'isométrie
 
 *Il est possible de choisir, selon la civilisation du joueur ou de la joueuse, des batiments différents. Ils ont des tailles différentes. Ici "chinampas est de taille 2. *

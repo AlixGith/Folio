@@ -19,7 +19,7 @@ Draft:
 
 Vidéos illustratives Netcode - {{< youtube wzbT8RARz3U >}}
 
-Vidéos illustratives Units and solo  {{< youtube aAiYZN3ZKL >}}
+Vidéos illustratives Units and solo  {{< youtube aAiYZN3ZKLc >}}
 
 Objectifs :
 

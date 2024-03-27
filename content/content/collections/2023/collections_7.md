@@ -17,7 +17,9 @@ Draft:
 ![Alt text](/img/collections/qualification.PNG "")
 
 
-Vidéos illustratives des récentes avancées {{< youtube wzbT8RARz3U >}}
+Vidéos illustratives Netcode - {{< youtube wzbT8RARz3U >}}
+
+Vidéos illustratives Units and solo  {{< youtube aAiYZN3ZKL >}}
 
 Objectifs :
 

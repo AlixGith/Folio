@@ -16,6 +16,9 @@ Draft:
 *Je souhaite suivre de bout en bout une rigueur de réalisation, que j'ai connu dans le milieu normatif : traçabilité, standardisation et conformité. Organigramme réalisé sous Visio :*
 ![Alt text](/img/collections/qualification.PNG "")
 
+
+Vidéos illustratives des récentes avancées {{< youtube wzbT8RARz3U >}}
+
 Objectifs :
 
 - Jeu en Real Time strategy macroscopique.

@@ -13,7 +13,7 @@ Draft:
 
 *Dans la nostalgie et dans la volonté de continuer ma passion, je décide de reprendre les idées de mon premier projet de Jeu datant de 2016.*
 
-Dernière images datant d'octobre 2024 - 16/10/2024 - {{< youtube 4AWwX_283EU >}}
+Dernière images datant d'octobre 2024 - 16/10/2024 - {{< youtube 8NxRcR-CCko >}}
 
 OLD links
 Vidéos illustratives Netcode - {{< youtube wzbT8RARz3U >}}

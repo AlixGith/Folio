@@ -11,12 +11,11 @@ Draft:
 
 # Novembre 2023 - *When the lead strikes the steel* - Jeu RTS 
 
-*Dans la nostalgie et dans la volonté de continuer ma passion, je décide de reprendre les idées de mon premier projet de Jeu datant de 2016. - Jeu vidéo*
+*Dans la nostalgie et dans la volonté de continuer ma passion, je décide de reprendre les idées de mon premier projet de Jeu datant de 2016.*
 
-*Je souhaite suivre de bout en bout une rigueur de réalisation, que j'ai connu dans le milieu normatif : traçabilité, standardisation et conformité. Organigramme réalisé sous Visio :*
-![Alt text](/img/collections/qualification.PNG "")
+Dernière images datant d'octobre 2024 - 16/10/2024 - {{< youtube 4AWwX_283EU >}}
 
-
+OLD links
 Vidéos illustratives Netcode - {{< youtube wzbT8RARz3U >}}
 
 Vidéos illustratives Units and solo  {{< youtube aAiYZN3ZKLc >}}
@@ -44,6 +43,9 @@ Objectifs :
 
 ![Alt text](/img/collections/pikes_shots_2.jpg "")
 
+*Je souhaite suivre de bout en bout une rigueur de réalisation, que j'ai connu dans le milieu normatif : traçabilité, standardisation et conformité. Organigramme réalisé sous Visio :*
+
+![Alt text](/img/collections/qualification.PNG "")
 
 *Le principe du cycle en V sera mis en place.  Cycle en V réalisé sous Visio :*
 ![Alt text](/img/collections/Cycle_en_v.PNG "")
